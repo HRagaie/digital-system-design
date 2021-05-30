@@ -1,0 +1,24 @@
+|servomotor
+door => pos[0]~reg0.DATAIN
+door => pos[1]~reg0.DATAIN
+door => pos[2]~reg0.DATAIN
+door => pos[3]~reg0.DATAIN
+door => pos[4]~reg0.DATAIN
+door => pos[5]~reg0.DATAIN
+door => pos[6]~reg0.DATAIN
+clk => pos[0]~reg0.CLK
+clk => pos[1]~reg0.CLK
+clk => pos[2]~reg0.CLK
+clk => pos[3]~reg0.CLK
+clk => pos[4]~reg0.CLK
+clk => pos[5]~reg0.CLK
+clk => pos[6]~reg0.CLK
+pos[0] <= pos[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+pos[1] <= pos[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+pos[2] <= pos[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+pos[3] <= pos[3]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+pos[4] <= pos[4]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+pos[5] <= pos[5]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+pos[6] <= pos[6]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+

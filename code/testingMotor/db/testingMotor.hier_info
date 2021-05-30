@@ -1,0 +1,108 @@
+|testingMotor
+reset => clk64kHz:clk64kHz_map.reset
+reset => servo_pwm:servo_pwm_map.reset
+clk => clk64kHz:clk64kHz_map.clk
+ir1 => process_0.IN0
+ir2 => process_0.IN1
+ls => lightsensor:lightsensor_map.ls
+sm => smokedetect:smokedetect_map.sm
+alarm << smokedetect:smokedetect_map.alarm
+light << lightsensor:lightsensor_map.light
+servo << servo_pwm:servo_pwm_map.servo
+
+
+|testingMotor|clk64kHz:clk64kHz_map
+clk => counter[0].CLK
+clk => counter[1].CLK
+clk => counter[2].CLK
+clk => counter[3].CLK
+clk => counter[4].CLK
+clk => counter[5].CLK
+clk => counter[6].CLK
+clk => counter[7].CLK
+clk => counter[8].CLK
+clk => counter[9].CLK
+clk => temporal.CLK
+reset => counter[0].ACLR
+reset => counter[1].ACLR
+reset => counter[2].ACLR
+reset => counter[3].ACLR
+reset => counter[4].ACLR
+reset => counter[5].ACLR
+reset => counter[6].ACLR
+reset => counter[7].ACLR
+reset => counter[8].ACLR
+reset => counter[9].ACLR
+reset => temporal.ACLR
+clk_out <= temporal.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|testingMotor|servomotor:motor_map
+door => pos[0]~reg0.DATAIN
+door => pos[1]~reg0.DATAIN
+door => pos[2]~reg0.DATAIN
+door => pos[3]~reg0.DATAIN
+door => pos[4]~reg0.DATAIN
+door => pos[5]~reg0.DATAIN
+door => pos[6]~reg0.DATAIN
+clk => pos[0]~reg0.CLK
+clk => pos[1]~reg0.CLK
+clk => pos[2]~reg0.CLK
+clk => pos[3]~reg0.CLK
+clk => pos[4]~reg0.CLK
+clk => pos[5]~reg0.CLK
+clk => pos[6]~reg0.CLK
+pos[0] <= pos[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+pos[1] <= pos[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+pos[2] <= pos[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+pos[3] <= pos[3]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+pos[4] <= pos[4]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+pos[5] <= pos[5]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+pos[6] <= pos[6]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|testingMotor|servo_pwm:servo_pwm_map
+clk => cnt[0].CLK
+clk => cnt[1].CLK
+clk => cnt[2].CLK
+clk => cnt[3].CLK
+clk => cnt[4].CLK
+clk => cnt[5].CLK
+clk => cnt[6].CLK
+clk => cnt[7].CLK
+clk => cnt[8].CLK
+clk => cnt[9].CLK
+clk => cnt[10].CLK
+reset => cnt[0].ACLR
+reset => cnt[1].ACLR
+reset => cnt[2].ACLR
+reset => cnt[3].ACLR
+reset => cnt[4].ACLR
+reset => cnt[5].ACLR
+reset => cnt[6].ACLR
+reset => cnt[7].ACLR
+reset => cnt[8].ACLR
+reset => cnt[9].ACLR
+reset => cnt[10].ACLR
+pos[0] => LessThan0.IN22
+pos[1] => LessThan0.IN21
+pos[2] => LessThan0.IN20
+pos[3] => LessThan0.IN19
+pos[4] => LessThan0.IN18
+pos[5] => Add0.IN4
+pos[6] => Add0.IN3
+servo <= LessThan0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|testingMotor|lightsensor:lightsensor_map
+ls => nextstate.DATAB
+ls => nextstate.DATAA
+light <= nextstate.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|testingMotor|smokedetect:smokedetect_map
+sm => nextstate.DATAB
+sm => nextstate.DATAA
+alarm <= nextstate.DB_MAX_OUTPUT_PORT_TYPE
+
+

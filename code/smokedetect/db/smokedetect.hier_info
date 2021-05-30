@@ -1,0 +1,6 @@
+|smokedetect
+sm => nextstate.DATAB
+sm => nextstate.DATAA
+alarm << nextstate.DB_MAX_OUTPUT_PORT_TYPE
+
+

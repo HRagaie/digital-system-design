@@ -1,0 +1,88 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/dsd assignment/clk_generator/simulation/modelsim
+Eclk_generator
+Z1 w1573132632
+Z2 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z3 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+R0
+Z4 8D:/dsd assignment/clk_generator/clk_generator.vhd
+Z5 FD:/dsd assignment/clk_generator/clk_generator.vhd
+l0
+L3
+VZUDDKZCBBn?7QKz2;KOb<3
+!s100 c0cOmZ@a0]FcDAaDnPW]53
+Z6 OV;C;10.5b;63
+31
+Z7 !s110 1573132672
+!i10b 1
+Z8 !s108 1573132672.000000
+Z9 !s90 -reportprogress|300|-93|-work|work|D:/dsd assignment/clk_generator/clk_generator.vhd|
+Z10 !s107 D:/dsd assignment/clk_generator/clk_generator.vhd|
+!i113 1
+Z11 o-93 -work work
+Z12 tExplicit 1 CvgOpt 0
+Abehavioral
+R2
+R3
+DEx4 work 13 clk_generator 0 22 ZUDDKZCBBn?7QKz2;KOb<3
+l12
+L9
+V60GZU:2h_^T=>[?fKTN4f0
+!s100 ZZzNGjLT;c8FWCaoCenC]1
+R6
+31
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Eclk_generator_vhd_tst
+Z13 w1573132647
+R2
+R3
+R0
+Z14 8D:/dsd assignment/clk_generator/simulation/modelsim/clk_generator.vht
+Z15 FD:/dsd assignment/clk_generator/simulation/modelsim/clk_generator.vht
+l0
+L30
+V`<[[0j?@ZR0RJ`9DgNe640
+!s100 8eN5UL8CW25P;hdE1HdO21
+R6
+31
+R7
+!i10b 1
+R8
+Z16 !s90 -reportprogress|300|-93|-work|work|D:/dsd assignment/clk_generator/simulation/modelsim/clk_generator.vht|
+Z17 !s107 D:/dsd assignment/clk_generator/simulation/modelsim/clk_generator.vht|
+!i113 1
+R11
+R12
+Aclk_generator_arch
+R2
+R3
+DEx4 work 21 clk_generator_vhd_tst 0 22 `<[[0j?@ZR0RJ`9DgNe640
+l45
+L32
+VmCSLh3lj;oOXPWhE2611K3
+!s100 2eQ8o1iUjJ<`Igj[IfL`03
+R6
+31
+R7
+!i10b 1
+R8
+R16
+R17
+!i113 1
+R11
+R12

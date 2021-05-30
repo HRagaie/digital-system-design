@@ -1,0 +1,45 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "alarm",
+					"strict" : false
+				},
+				{
+					"name" : "light",
+					"strict" : false
+				},
+				{
+					"name" : "servo",
+					"strict" : false
+				},
+				{
+					"name" : "sm",
+					"strict" : false
+				},
+				{
+					"name" : "ls",
+					"strict" : false
+				},
+				{
+					"name" : "ir1",
+					"strict" : false
+				},
+				{
+					"name" : "ir2",
+					"strict" : false
+				},
+				{
+					"name" : "reset",
+					"strict" : false
+				},
+				{
+					"name" : "clk",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

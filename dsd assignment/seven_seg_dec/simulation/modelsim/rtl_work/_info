@@ -1,0 +1,88 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/dsd assignment/seven_seg_dec/simulation/modelsim
+Eseven_seg_dec
+Z1 w1572995575
+Z2 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z3 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+R0
+Z4 8D:/dsd assignment/seven_seg_dec/seven_seg_dec.vhd
+Z5 FD:/dsd assignment/seven_seg_dec/seven_seg_dec.vhd
+l0
+L3
+VEi?m?b61bj2akSR6>4<2C1
+!s100 =KLeP8M4mDIb5GjK8hb@H1
+Z6 OV;C;10.5b;63
+31
+Z7 !s110 1573089379
+!i10b 1
+Z8 !s108 1573089379.000000
+Z9 !s90 -reportprogress|300|-93|-work|work|D:/dsd assignment/seven_seg_dec/seven_seg_dec.vhd|
+Z10 !s107 D:/dsd assignment/seven_seg_dec/seven_seg_dec.vhd|
+!i113 1
+Z11 o-93 -work work
+Z12 tExplicit 1 CvgOpt 0
+Alogic
+R2
+R3
+DEx4 work 13 seven_seg_dec 0 22 Ei?m?b61bj2akSR6>4<2C1
+l10
+L9
+V[=UhlQn:j[T_D;TkElQE;0
+!s100 JSWMHUUQIA3Y<`LDeF@TF1
+R6
+31
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Eseven_seg_dec_vhd_tst
+Z13 w1573089350
+R2
+R3
+R0
+Z14 8D:/dsd assignment/seven_seg_dec/simulation/modelsim/seven_seg_dec.vht
+Z15 FD:/dsd assignment/seven_seg_dec/simulation/modelsim/seven_seg_dec.vht
+l0
+L30
+ViWH_7@gKnUQCXR8bL5UgK3
+!s100 >hJ=gN^Oh5T1HDS?foL=G3
+R6
+31
+R7
+!i10b 1
+R8
+Z16 !s90 -reportprogress|300|-93|-work|work|D:/dsd assignment/seven_seg_dec/simulation/modelsim/seven_seg_dec.vht|
+Z17 !s107 D:/dsd assignment/seven_seg_dec/simulation/modelsim/seven_seg_dec.vht|
+!i113 1
+R11
+R12
+Aseven_seg_dec_arch
+R2
+R3
+DEx4 work 21 seven_seg_dec_vhd_tst 0 22 iWH_7@gKnUQCXR8bL5UgK3
+l43
+L32
+Vz75WM@9=X@Q@VM=dj5ISN2
+!s100 m`idZK`Kl:[RRk4Y3iK`=0
+R6
+31
+R7
+!i10b 1
+R8
+R16
+R17
+!i113 1
+R11
+R12

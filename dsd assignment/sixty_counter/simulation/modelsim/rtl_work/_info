@@ -1,0 +1,88 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/dsd assignment/sixty_counter/simulation/modelsim
+Esixty_counter
+Z1 w1573089958
+Z2 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z3 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+R0
+Z4 8D:/dsd assignment/sixty_counter/sixty_counter.vhd
+Z5 FD:/dsd assignment/sixty_counter/sixty_counter.vhd
+l0
+L3
+V:GfJ7Q3<7[dCB_>WggBS<2
+!s100 6ThA4Vn3d:ME1XP8MFcIz3
+Z6 OV;C;10.5b;63
+31
+Z7 !s110 1573090887
+!i10b 1
+Z8 !s108 1573090887.000000
+Z9 !s90 -reportprogress|300|-93|-work|work|D:/dsd assignment/sixty_counter/sixty_counter.vhd|
+Z10 !s107 D:/dsd assignment/sixty_counter/sixty_counter.vhd|
+!i113 1
+Z11 o-93 -work work
+Z12 tExplicit 1 CvgOpt 0
+Abehavioral
+R2
+R3
+DEx4 work 13 sixty_counter 0 22 :GfJ7Q3<7[dCB_>WggBS<2
+l12
+L10
+V`BE9dfK<gVd`18bNGIdM[0
+!s100 m7<K3l;NAM<Jo1XId<N:M2
+R6
+31
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Esixty_counter_vhd_tst
+Z13 w1573090186
+R2
+R3
+R0
+Z14 8D:/dsd assignment/sixty_counter/simulation/modelsim/sixty_counter.vht
+Z15 FD:/dsd assignment/sixty_counter/simulation/modelsim/sixty_counter.vht
+l0
+L30
+VMW<i=Yi7]5cgBLfXl@<Oe3
+!s100 T3mk9cA2mMnYXgIfeW=662
+R6
+31
+R7
+!i10b 1
+R8
+Z16 !s90 -reportprogress|300|-93|-work|work|D:/dsd assignment/sixty_counter/simulation/modelsim/sixty_counter.vht|
+Z17 !s107 D:/dsd assignment/sixty_counter/simulation/modelsim/sixty_counter.vht|
+!i113 1
+R11
+R12
+Asixty_counter_arch
+R2
+R3
+DEx4 work 21 sixty_counter_vhd_tst 0 22 MW<i=Yi7]5cgBLfXl@<Oe3
+l45
+L32
+V]hd;V5FgE[3@mJ30YllA80
+!s100 1AD;^OZFfcX9hG54k5b:I3
+R6
+31
+R7
+!i10b 1
+R8
+R16
+R17
+!i113 1
+R11
+R12

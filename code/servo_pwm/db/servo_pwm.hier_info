@@ -1,0 +1,33 @@
+|servo_pwm
+clk => cnt[0].CLK
+clk => cnt[1].CLK
+clk => cnt[2].CLK
+clk => cnt[3].CLK
+clk => cnt[4].CLK
+clk => cnt[5].CLK
+clk => cnt[6].CLK
+clk => cnt[7].CLK
+clk => cnt[8].CLK
+clk => cnt[9].CLK
+clk => cnt[10].CLK
+reset => cnt[0].ACLR
+reset => cnt[1].ACLR
+reset => cnt[2].ACLR
+reset => cnt[3].ACLR
+reset => cnt[4].ACLR
+reset => cnt[5].ACLR
+reset => cnt[6].ACLR
+reset => cnt[7].ACLR
+reset => cnt[8].ACLR
+reset => cnt[9].ACLR
+reset => cnt[10].ACLR
+pos[0] => LessThan0.IN22
+pos[1] => LessThan0.IN21
+pos[2] => LessThan0.IN20
+pos[3] => LessThan0.IN19
+pos[4] => LessThan0.IN18
+pos[5] => Add0.IN4
+pos[6] => Add0.IN3
+servo <= LessThan0.DB_MAX_OUTPUT_PORT_TYPE
+
+

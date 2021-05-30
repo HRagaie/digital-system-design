@@ -1,0 +1,205 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/dsd assignment/timer/simulation/modelsim
+Eclk_generator
+Z1 w1573136008
+Z2 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z3 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+R0
+Z4 8D:/dsd assignment/clk_generator/clk_generator.vhd
+Z5 FD:/dsd assignment/clk_generator/clk_generator.vhd
+l0
+L3
+VZUDDKZCBBn?7QKz2;KOb<3
+!s100 c0cOmZ@a0]FcDAaDnPW]53
+Z6 OV;C;10.5b;63
+31
+Z7 !s110 1573136716
+!i10b 1
+Z8 !s108 1573136716.000000
+Z9 !s90 -reportprogress|300|-93|-work|work|D:/dsd assignment/clk_generator/clk_generator.vhd|
+Z10 !s107 D:/dsd assignment/clk_generator/clk_generator.vhd|
+!i113 1
+Z11 o-93 -work work
+Z12 tExplicit 1 CvgOpt 0
+Abehavioral
+R2
+R3
+DEx4 work 13 clk_generator 0 22 ZUDDKZCBBn?7QKz2;KOb<3
+l12
+L9
+V@a]WM9`^]NRThT2>`fkc^0
+!s100 ?`8BCLd>S_YF^ggi7Nng?2
+R6
+31
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Eseven_seg_dec
+Z13 w1573134163
+R2
+R3
+R0
+Z14 8D:/dsd assignment/seven_seg_dec/seven_seg_dec.vhd
+Z15 FD:/dsd assignment/seven_seg_dec/seven_seg_dec.vhd
+l0
+L3
+VEi?m?b61bj2akSR6>4<2C1
+!s100 =KLeP8M4mDIb5GjK8hb@H1
+R6
+31
+R7
+!i10b 1
+R8
+Z16 !s90 -reportprogress|300|-93|-work|work|D:/dsd assignment/seven_seg_dec/seven_seg_dec.vhd|
+Z17 !s107 D:/dsd assignment/seven_seg_dec/seven_seg_dec.vhd|
+!i113 1
+R11
+R12
+Alogic
+R2
+R3
+DEx4 work 13 seven_seg_dec 0 22 Ei?m?b61bj2akSR6>4<2C1
+l10
+L9
+VYHVz<DaZV;4OM`>mg:9Ro2
+!s100 JIg=:bdC^PZPjKA?ZLSBU1
+R6
+31
+R7
+!i10b 1
+R8
+R16
+R17
+!i113 1
+R11
+R12
+Esixty_counter
+Z18 w1573125976
+R2
+R3
+R0
+Z19 8D:/dsd assignment/sixty_counter/sixty_counter.vhd
+Z20 FD:/dsd assignment/sixty_counter/sixty_counter.vhd
+l0
+L3
+V:GfJ7Q3<7[dCB_>WggBS<2
+!s100 6ThA4Vn3d:ME1XP8MFcIz3
+R6
+31
+R7
+!i10b 1
+R8
+Z21 !s90 -reportprogress|300|-93|-work|work|D:/dsd assignment/sixty_counter/sixty_counter.vhd|
+Z22 !s107 D:/dsd assignment/sixty_counter/sixty_counter.vhd|
+!i113 1
+R11
+R12
+Abehavioral
+R2
+R3
+DEx4 work 13 sixty_counter 0 22 :GfJ7Q3<7[dCB_>WggBS<2
+l12
+L10
+Vl`i_Q6dz52ed4V8A3aIQD2
+!s100 <gML8>>0NeC7Yb89h4VcF2
+R6
+31
+R7
+!i10b 1
+R8
+R21
+R22
+!i113 1
+R11
+R12
+Estopwatch
+Z23 w1573129057
+R2
+R3
+R0
+Z24 8D:/dsd assignment/timer/StopWatch.vhd
+Z25 FD:/dsd assignment/timer/StopWatch.vhd
+l0
+L3
+VT>jmT3odIW`79WM?U2LO42
+!s100 Aj?fz=I>X0^Q]HA>dCDlQ0
+R6
+31
+R7
+!i10b 1
+R8
+Z26 !s90 -reportprogress|300|-93|-work|work|D:/dsd assignment/timer/StopWatch.vhd|
+Z27 !s107 D:/dsd assignment/timer/StopWatch.vhd|
+!i113 1
+R11
+R12
+Astructural
+R2
+R3
+DEx4 work 9 stopwatch 0 22 T>jmT3odIW`79WM?U2LO42
+l28
+L9
+VHhZEOM2Nh?J>3gnI9DmK40
+!s100 Rd;H9ib?1cHLdlXU0ekDj1
+R6
+31
+R7
+!i10b 1
+R8
+R26
+R27
+!i113 1
+R11
+R12
+Estopwatch_vhd_tst
+Z28 w1573128876
+R2
+R3
+R0
+Z29 8D:/dsd assignment/timer/simulation/modelsim/stopwatch.vht
+Z30 FD:/dsd assignment/timer/simulation/modelsim/stopwatch.vht
+l0
+L30
+Vb=J:SO8Y[PKF2e4T=MHH;3
+!s100 7VLL`D1_j>01Zdh_SUE850
+R6
+31
+R7
+!i10b 1
+R8
+Z31 !s90 -reportprogress|300|-93|-work|work|D:/dsd assignment/timer/simulation/modelsim/stopwatch.vht|
+Z32 !s107 D:/dsd assignment/timer/simulation/modelsim/stopwatch.vht|
+!i113 1
+R11
+R12
+Astopwatch_arch
+R2
+R3
+DEx4 work 17 stopwatch_vhd_tst 0 22 b=J:SO8Y[PKF2e4T=MHH;3
+l49
+L32
+V;YVX2ATzL<KlMzS0Y0SQV3
+!s100 FR_:k[Zb]X9iFg8^elS?z2
+R6
+31
+R7
+!i10b 1
+R8
+R31
+R32
+!i113 1
+R11
+R12

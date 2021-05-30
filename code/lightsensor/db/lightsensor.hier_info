@@ -1,0 +1,6 @@
+|lightsensor
+ls => nextstate.DATAB
+ls => nextstate.DATAA
+light <= nextstate.DB_MAX_OUTPUT_PORT_TYPE
+
+

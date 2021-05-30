@@ -1,0 +1,10 @@
+library ieee;
+use ieee.std_logic_1164.all;
+entity stopwatch is
+port (
+
+end stopwatch;
+architecture behavioral of stopwatch is
+COMPONENT clk_generator
+PORT (x, y: IN STD_LOGIC; z: OUT STD_LOGIC);
+END COMPONENT;

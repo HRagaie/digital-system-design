@@ -1,0 +1,14 @@
+LIBRARY IEEE;
+USE IEEE.STD_LOGIC_1164.ALL;
+
+ENTITY testingMotor IS
+PORT(
+	motor : OUT STD_LOGIC
+);
+
+ARCHITECTURE behav OF testingMotor IS
+BEGIN
+
+MOTOR <= '1'; 
+
+END behav;

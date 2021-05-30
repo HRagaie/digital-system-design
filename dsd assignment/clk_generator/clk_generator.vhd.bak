@@ -1,0 +1,25 @@
+library ieee;
+use ieee.std_logic_1164.all;
+entity clk_generator is
+	port(
+			clk1: in std_logic;
+			newclock : out std_logic);
+end clk_generator;
+
+Architecture behavioral of clk_generator is
+	signal counter : Integer := 0;
+	signal clk : std_logic;
+	begin
+	process(clk1)
+	begin 
+		if(clk1'event and clk1 = '1')
+			then counter <= counter +1;
+				IF(counter = 24999999)
+				THEN
+					clk <= not clk;
+					counter <= 0;
+					newclock <=clk;
+				END IF;
+			END IF;
+		END PROCESS;
+END behavioral;
